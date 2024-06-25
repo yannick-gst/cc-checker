@@ -1,0 +1,17 @@
+# Byte-compiled
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Packaging
+env/
+build/
+dist/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# virtualenv
+.venv/
+venv/
+ENV/
