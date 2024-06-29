@@ -16,5 +16,6 @@ setup(
     author='Yannick Tapsoba',
     author_email='53797787+yannick-gst@users.noreply.github.com',
     url='https://github.com/yannick-gst/cc-checker',
-    license=license
+    license=license,
+    packages=find_packages(exclude=('tests'))
 )
