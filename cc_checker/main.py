@@ -27,7 +27,7 @@ def main():
         '-l',
         '--listen',
         default='0.0.0.0',
-        help='Specifies the address the server should listen ono'
+        help='Specifies the address the server should listen on'
     )
 
     parser.add_argument(
