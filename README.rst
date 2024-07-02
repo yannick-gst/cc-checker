@@ -34,3 +34,7 @@ Example output
 
     curl -X GET 'http://0.0.0.0:8080/4263982640269299'
     {"Credit card number": "4263982640269299", "Valid": true, "Issuing Network": "Visa"}
+
+Testing
+=======
+To run tests, one can run ``make``. This will install the required poackages and run the unit tests located in the ``./tests`` directory.
