@@ -34,8 +34,8 @@ class LuhnHTTPReequestHandler(BaseHTTPRequestHandler):
             )
             status_code = 400
         finally:
+            self.send_response(status_code)
             self.send_header("Content-Type", "application/json")
             self.send_header("Content-Length", str(len(str(response))))
-            self.send_response(status_code)
             self.end_headers()
             self.wfile.write(str(response).encode('utf8'))

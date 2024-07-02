@@ -20,11 +20,11 @@ def start_server(addr, port):
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Run an HTTP server that validates credit card numbers")
+        description="Run an HTTP server that validates credit card numbers"
     )
 
     parser.add_argument(
-        '=l',
+        '-l',
         '--listen',
         default='0.0.0.0',
         help='Specifies the address the server should listen ono'
